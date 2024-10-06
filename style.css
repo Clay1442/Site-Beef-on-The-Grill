@@ -1,27 +1,37 @@
 *{
-    font-weight: 600;
-    margin: 0%;
+    --moz-column-rule-color: #000000;
+    --moz-column-rule-color: #ffffff;
+}
+
+body{
+    background-color:rgb(255, 215, 190);
+    height: 100vh;
+}
+
+.field{
+    font-weight: 700;
+    margin: 0% auto;
     padding: 0%;
+    max-width: 1280px;
     box-sizing: border-box;
     border-radius: 5%;
 }
 
 h1{
-    color: #ffffff;
-    font-size: 38px;
+    color: #151515;
+    font-size: 30px;
     text-align: center;
 }
 
-body{
-    background-color:rgb(255, 215, 190);
-    height: 100vh;    
-    
-    
+/* AQUI CONTÉM UMA CLASS DE PARÁGRAFO ÚNICO, PARA ALTERAÇÃO DE CORES E TAMANHO DA FONTE. ESPECÍFICO À ELES. */
+.Single{
+    color: rgba(20, 15, 15, 0.838);
 }
+/*----------------*/
 
-.field{
-    max-width: 1280px;
-    margin: 0% auto;
+.img-apex-site {
+    position: flex;
+    right: 50px;
 }
 
 .Middle-of-the-site{
@@ -55,6 +65,12 @@ body{
     height: 200px;
 }
 
+.field .img-apex-site img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5%;
+}
+
 header{
     padding: 40px 4%;
 }
@@ -86,3 +102,5 @@ header nav ul li {
     display: inline-block;
     padding: 0 40px;
 }
+ 
+
