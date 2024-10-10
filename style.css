@@ -27,6 +27,10 @@ h1{
 .Single{
     color: rgba(20, 15, 15, 0.838);
 }
+.Single footer {
+    font-size: small;
+    
+}
 /*----------------*/
 
 .img-apex-site {
@@ -104,3 +108,16 @@ header nav ul li {
 }
  
 
+#nav-footer ul { 
+    padding:0px;
+    margin:0px;
+    list-style:none;
+}
+
+#nav-footer ul li { display: inline; }
+
+#nav-footer ul li { 
+    padding: 2px 10px; 
+    display: inline-block; /* visual do link */ 
+    text-decoration: none; 
+}
