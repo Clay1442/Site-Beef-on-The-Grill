@@ -26,10 +26,15 @@ h1{
 /* AQUI CONTÉM UMA CLASS DE PARÁGRAFO ÚNICO, PARA ALTERAÇÃO DE CORES E TAMANHO DA FONTE. ESPECÍFICO À ELES. */
 .Single{
     color: rgba(20, 15, 15, 0.838);
+    font-size: 27px;
 }
 .Single footer {
     font-size: small;
     
+}
+.site-historia p {
+font-size: 27px;
+text-align: center;
 }
 /*----------------*/
 
