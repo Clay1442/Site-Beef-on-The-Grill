@@ -1,3 +1,4 @@
+
 *{
     --moz-column-rule-color: #000000;
     --moz-column-rule-color: #ffffff;
@@ -32,13 +33,10 @@ h1{
     font-size: small;
     
 }
-.site-historia p {
-font-size: 27px;
-text-align: center;
-}
+
 /*----------------*/
 
-.Middle-of-the-site{
+.field .Middle-of-the-site{
     display:flex;
 }
 
@@ -122,3 +120,58 @@ header nav ul li {
     text-decoration: none; 
 }
 
+/* SITE HISTORIA*/
+
+h2{
+    color: #151515;
+    font-size: 30px;
+    text-align: center;    
+}
+
+.field2{
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0% auto;
+    padding: 0%;
+    max-width: 1280px;
+    box-sizing: border-box;
+    border-radius: 5%;
+}
+
+.field2 .Middle-of-the-site2{
+    display:flex;
+    margin-top: 5%;
+}
+
+.field2 .img-historia img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5%;
+}
+
+/* MUNDO DO CHURRASCO */
+
+h3{
+    color: #151515;
+    font-size: 30px;
+    text-align: center;    
+}
+
+.field3{
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0% auto;
+    padding: 0%;
+    max-width: 1280px;
+    box-sizing: border-box;
+    border-radius: 5%;
+}
+
+.field3 .Middle-of-the-site3{
+    display:flex;
+    margin-top: 5%;
+}
+
+.field3 .video-ensinamentos{
+    display:list-item;
+}
