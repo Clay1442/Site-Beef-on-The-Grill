@@ -157,21 +157,27 @@ h3{
     text-align: center;    
 }
 
-.field3{
+.video-ensinamentos{
     font-weight: 700;
     font-size: 20px;
     margin: 0% auto;
-    padding: 0%;
     max-width: 1280px;
     box-sizing: border-box;
-    border-radius: 5%;
 }
 
-.field3 .Middle-of-the-site3{
-    display:flex;
-    margin-top: 5%;
+.imagens-churrascaria {
+    text-align: center;
 }
 
-.field3 .video-ensinamentos{
-    display:list-item;
+#videos {
+    margin: 5em;
+}
+
+.menu {
+    background-image: url(imagens_do_site/foto\ do\ estabelecimento.png);
+    color: #fff;
+    background-position: center;
+    padding: 2%;
+    text-align: center;
+    margin-top: 5em;
 }
