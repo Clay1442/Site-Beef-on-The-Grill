@@ -9,23 +9,37 @@ body{
     height: 100vh;
 }
 
-.field{
-    font-weight: 700;
-    margin: 0% auto;
-    padding: 0%;
-    max-width: 1280px;
-    box-sizing: border-box;
-    border-radius: 5%;
-}
 
 h1{
     color: #151515;
     font-size: 30px;
     text-align: center;
 }
+/*Boas Vindas*/
+.boasVindas {
+    background-image: url(imagens_do_site/estabelecimento.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    margin-bottom: 10em;
+    background-color: rgb(212, 174, 150);
+    padding: 10%;
+}
+
+.boasVindas p {
+    text-align: right;
+}
+
+.boasVindas h1 {
+    text-align: right;
+}
+
+/*historia do site section */
+
+
 
 /* AQUI CONTÉM UMA CLASS DE PARÁGRAFO ÚNICO, PARA ALTERAÇÃO DE CORES E TAMANHO DA FONTE. ESPECÍFICO À ELES. */
-.Single{
+.texto{
     color: rgba(20, 15, 15, 0.838);
     font-size: 27px;
 }
@@ -34,43 +48,9 @@ h1{
     
 }
 
-/*----------------*/
-
-.field .Middle-of-the-site{
-    display:flex;
-}
-
-.button-contato button::before{
-    content: "";
-    display: block;
-    width: 0px;
-    height: 86%;
-    position: absolute;
-    top: 7%;
-    left: 0%;
-    opacity: 0;
-    background: #fff;
-    box-shadow: 0 0 50px 30px #fff;
-    -webkit-transform: skewX(-20deg);
-    -moz-transform: skewX(-20deg);
-    -ms-transform: skewX(-20deg);
-    -o-transform: skewX(-20deg);
-    transform: skewX(-20deg);
-    user-select: none;
-   
-}
-
-/* estilo do cabeçalho */
-
 .field .soon img{
     width: 200px;
     height: 200px;
-}
-
-.field .img-apex-site img {
-    width: 200px;
-    height: 200px;
-    border-radius: 5%;
 }
 
 header{
@@ -128,26 +108,12 @@ h2{
     text-align: center;    
 }
 
-.field2{
-    font-weight: 700;
-    font-size: 20px;
-    margin: 0% auto;
-    padding: 0%;
-    max-width: 1280px;
-    box-sizing: border-box;
-    border-radius: 5%;
-}
-
 .field2 .Middle-of-the-site2{
     display:flex;
     margin-top: 5%;
 }
 
-.field2 .img-historia img {
-    width: 200px;
-    height: 200px;
-    border-radius: 5%;
-}
+
 
 /* MUNDO DO CHURRASCO */
 
@@ -174,7 +140,7 @@ h3{
 }
 
 .menu {
-    background-image: url(imagens_do_site/foto\ do\ estabelecimento.png);
+    background-image: url(imagens_do_site/dentro.png);
     color: #fff;
     background-position: center;
     padding: 2%;
